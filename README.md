@@ -1,7 +1,8 @@
 # Intent classification in a banking domain 
-HSE Neural Networks in NLP Course
+
 
 [Link](https://www.kaggle.com/soimmarylanabanana/nnlp-project-EDA) to EDA.
+
 [Link](https://www.kaggle.com/soimmarylanabanana/nnlp-project-catboost2) to CatBoost training on Kaggle.
 
 ## Task
@@ -38,6 +39,11 @@ Number of intents: 77
 - Weighted F1: 0.915300248802941
 - Micro F1: 0.9149350649350649
 - Macro F1: 0.9145698810671887
+
+(The best F1 result in the leaderboard accounts for 0.925.)
+
+## To do:
+- We tried to fine-tune the _distilbert-base-cased_ or _bert-base-cased_ and train it on out dataset but for some reason it showed really bad results so we're still dealing with it.
 
 ## Team
 - Maria Bocharova
