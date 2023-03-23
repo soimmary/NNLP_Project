@@ -26,14 +26,14 @@ Number of intents: 77
 - Micro F1: 0.8282467532467532
 - Macro F1: 0.8276792895654566
 
-**CatBoost (~30 text features) + Sentence Transformer (nq-distilbert-base-v1)👍🏻**
+**CatBoost (~30 text features) + Sentence Transformer (nq-distilbert-base-v1) 👍🏻**
 
 - Accuracy: 0.8844155844155844
 - Weighted F1: 0.8846075063246825
 - Micro F1: 0.8844155844155844
 - Macro F1: 0.884223662506486
 
-**CatBoost (~30 text features) + Sentence Transformer (all-MiniLM-L6-v2)👍🏻👍🏻**
+**CatBoost (~30 text features) + Sentence Transformer (all-MiniLM-L6-v2) 👍🏻👍🏻**
 
 - Accuracy: 0.9149350649350649
 - Weighted F1: 0.915300248802941
