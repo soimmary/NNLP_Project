@@ -10,10 +10,10 @@ Multiclass classification.
 ## Dataset
 Previous intent detection datasets such as Web Apps, Ask Ubuntu, the Chatbot Corpus or SNIPS are limited to small number of classes (<10), which oversimplifies the intent detection task and does not emulate the true environment of commercial systems. Although there exist large scale multi-domain datasets (HWU64 and CLINC150), the examples per each domain may not sufficiently capture the full complexity of each domain as encountered "in the wild". The [Banking77](https://huggingface.co/datasets/banking77) dataset tries to fill the gap and provides a very fine-grained set of intents in a single-domain i.e. banking. It consists of 77 classes.
 
-## Dataset statistics        
+## Dataset statistics       
 
-Number of examples: 10 003 in train, 3 080 in test
-Average character length: 59.5 in train, 54.2 in test
+Number of examples: 10 003 train, 3 080 test
+Average character length: 59.5 train, 54.2 test
 Number of intents: 77
 
 ## Solution
@@ -32,7 +32,7 @@ Number of intents: 77
 - Micro F1: 0.8844155844155844
 - Macro F1: 0.884223662506486
 
-**CatBoost (~30 text features) + Sentence Transformer (all-MiniLM-L6-v2)👍👍🏻**
+**CatBoost (~30 text features) + Sentence Transformer (all-MiniLM-L6-v2)👍🏻👍🏻**
 
 - Accuracy: 0.9149350649350649
 - Weighted F1: 0.915300248802941
